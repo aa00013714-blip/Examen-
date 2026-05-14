@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kahoot Genética</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>🧬 Kahoot de Genética</h1>
+
+  <div id="quiz">
+
+    <h2 id="pregunta">Pregunta aquí</h2>
+
+    <div class="opciones">
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+    </div>
+
+    <p id="contador"></p>
+    <p id="score"></p>
+
+  </div>
+
+  <div id="final" class="hidden">
+    <h2>Juego terminado 🎉</h2>
+    <p id="resultado"></p>
+    <button onclick="location.reload()">Jugar otra vez</button>
+  </div>
+
+</div>
+
+<script src="preguntas.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
